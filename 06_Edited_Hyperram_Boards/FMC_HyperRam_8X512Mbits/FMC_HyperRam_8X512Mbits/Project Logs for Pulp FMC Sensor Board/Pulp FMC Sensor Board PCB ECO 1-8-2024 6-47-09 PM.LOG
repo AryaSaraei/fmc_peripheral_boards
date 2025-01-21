@@ -1,0 +1,268 @@
+Removed Member From Class: ClassName=U_FMC and Power Member=R3
+Change Component Footprint: Designator=U1 Old Footprint=FBGA24_A-130 New Footprint=FBGA24_A-130
+Change Component Footprint: Designator=U2 Old Footprint=FBGA24_A-130 New Footprint=FBGA24_A-130
+Change Component Footprint: Designator=U4 Old Footprint=FBGA24_A-130 New Footprint=FBGA24_A-130
+Change Component Comment : Designator=U1 Old Comment=S71KS512SC0 New Comment=S80KS5122
+Change Component Comment : Designator=U2 Old Comment=S71KS512SC0 New Comment=S80KS5122
+Change Component Comment : Designator=U3 Old Comment=S71KS512SC0 New Comment=S80KS5122
+Change Component Comment : Designator=U4 Old Comment=S71KS512SC0 New Comment=S80KS5122
+Change Managed Component Library Link : Designator=U4 Old VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB New VaultGUID= Old ItemGUID=933E737E-FB78-4363-8327-42E009CA61CC New ItemGUID= Old RevisionGUID=D9F05291-AF4D-4EE4-A15D-3779E7BD6F30 New RevisionGUID=
+Change component parameters: Designator = "U1" ("U1"); Footprint = "FBGA24_A-130"; UniqueID = "\HYKIMIXW\WPQXSWIF" ("\HYKIMIXW\WPQXSWIF")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "FBGA24_A-130"; UniqueID = "\HYKIMIXW\WSFMEKAT" ("\HYKIMIXW\WSFMEKAT")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3" ("U3"); Footprint = "FBGA24_A-130"; UniqueID = "\RIPIGHTR\AOHTLZIK" ("\RIPIGHTR\AOHTLZIK")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4" ("U4"); Footprint = "FBGA24_A-130"; UniqueID = "\RIPIGHTR\PGHRRKIG" ("\RIPIGHTR\PGHRRKIG")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C20(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C21(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C22(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C23(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C24(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C25(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C26(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C27(CAPC0603(1608)100_N)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Thickness"; Value = "1 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Voltage"; Value = "25 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=J1(Jumper)
+Added Component: Designator=U5(FBGA24_A-130)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U6(FBGA24_A-130)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U7(FBGA24_A-130)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U8(FBGA24_A-130)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "New link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.it/ProductDetail/Infineon-Technologies/S80KS5122GABHV020?qs=doiCPypUmgEJDMhxR%2Fbnog%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=Vmem_low Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=Vmem_low Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=Vmem_low Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=Vmem_low Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=Vmem_low Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C21-1
+Added Pin To Net: NetName=Vmem_low Pin=C21-2
+Added Pin To Net: NetName=GND Pin=C22-1
+Added Pin To Net: NetName=Vmem_low Pin=C22-2
+Added Pin To Net: NetName=GND Pin=C23-1
+Added Pin To Net: NetName=Vmem_low Pin=C23-2
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=Vmem_low Pin=C24-2
+Added Pin To Net: NetName=GND Pin=C25-1
+Added Pin To Net: NetName=Vmem_low Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C26-1
+Added Pin To Net: NetName=Vmem_low Pin=C26-2
+Added Pin To Net: NetName=GND Pin=C27-1
+Added Pin To Net: NetName=Vmem_low Pin=C27-2
+Added Pin To Net: NetName=FMC_HYPER_RESET Pin=U5-A4
+Added Pin To Net: NetName=FMC_HYPER_CK_N Pin=U5-B1
+Added Pin To Net: NetName=FMC_HYPER_CK_P Pin=U5-B2
+Added Pin To Net: NetName=GND Pin=U5-B3
+Added Pin To Net: NetName=Vmem_low Pin=U5-B4
+Added Pin To Net: NetName=GND Pin=U5-C1
+Added Pin To Net: NetName=FMC_HYPER_RWDS Pin=U5-C3
+Added Pin To Net: NetName=FMC_HYPER_D2 Pin=U5-C4
+Added Pin To Net: NetName=Vmem_low Pin=U5-D1
+Added Pin To Net: NetName=FMC_HYPER_D1 Pin=U5-D2
+Added Pin To Net: NetName=FMC_HYPER_D0 Pin=U5-D3
+Added Pin To Net: NetName=FMC_HYPER_D3 Pin=U5-D4
+Added Pin To Net: NetName=FMC_HYPER_D4 Pin=U5-D5
+Added Pin To Net: NetName=FMC_HYPER_D7 Pin=U5-E1
+Added Pin To Net: NetName=FMC_HYPER_D6 Pin=U5-E2
+Added Pin To Net: NetName=FMC_HYPER_D5 Pin=U5-E3
+Added Pin To Net: NetName=Vmem_low Pin=U5-E4
+Added Pin To Net: NetName=GND Pin=U5-E5
+Added Pin To Net: NetName=FMC_HYPER_RESET Pin=U6-A4
+Added Pin To Net: NetName=FMC_HYPER_CK_N Pin=U6-B1
+Added Pin To Net: NetName=FMC_HYPER_CK_P Pin=U6-B2
+Added Pin To Net: NetName=GND Pin=U6-B3
+Added Pin To Net: NetName=Vmem_low Pin=U6-B4
+Added Pin To Net: NetName=GND Pin=U6-C1
+Added Pin To Net: NetName=FMC_HYPER_RWDS Pin=U6-C3
+Added Pin To Net: NetName=FMC_HYPER_D2 Pin=U6-C4
+Added Pin To Net: NetName=Vmem_low Pin=U6-D1
+Added Pin To Net: NetName=FMC_HYPER_D1 Pin=U6-D2
+Added Pin To Net: NetName=FMC_HYPER_D0 Pin=U6-D3
+Added Pin To Net: NetName=FMC_HYPER_D3 Pin=U6-D4
+Added Pin To Net: NetName=FMC_HYPER_D4 Pin=U6-D5
+Added Pin To Net: NetName=FMC_HYPER_D7 Pin=U6-E1
+Added Pin To Net: NetName=FMC_HYPER_D6 Pin=U6-E2
+Added Pin To Net: NetName=FMC_HYPER_D5 Pin=U6-E3
+Added Pin To Net: NetName=Vmem_low Pin=U6-E4
+Added Pin To Net: NetName=GND Pin=U6-E5
+Added Pin To Net: NetName=FMC_HYPER2_RESET Pin=U7-A4
+Added Pin To Net: NetName=FMC_HYPER2_CK_N Pin=U7-B1
+Added Pin To Net: NetName=FMC_HYPER2_CK_P Pin=U7-B2
+Added Pin To Net: NetName=GND Pin=U7-B3
+Added Pin To Net: NetName=Vmem_low Pin=U7-B4
+Added Pin To Net: NetName=GND Pin=U7-C1
+Added Pin To Net: NetName=FMC_HYPER2_RWDS Pin=U7-C3
+Added Pin To Net: NetName=FMC_HYPER2_D2 Pin=U7-C4
+Added Pin To Net: NetName=Vmem_low Pin=U7-D1
+Added Pin To Net: NetName=FMC_HYPER2_D1 Pin=U7-D2
+Added Pin To Net: NetName=FMC_HYPER2_D0 Pin=U7-D3
+Added Pin To Net: NetName=FMC_HYPER2_D3 Pin=U7-D4
+Added Pin To Net: NetName=FMC_HYPER2_D4 Pin=U7-D5
+Added Pin To Net: NetName=FMC_HYPER2_D7 Pin=U7-E1
+Added Pin To Net: NetName=FMC_HYPER2_D6 Pin=U7-E2
+Added Pin To Net: NetName=FMC_HYPER2_D5 Pin=U7-E3
+Added Pin To Net: NetName=Vmem_low Pin=U7-E4
+Added Pin To Net: NetName=GND Pin=U7-E5
+Added Pin To Net: NetName=FMC_HYPER2_RESET Pin=U8-A4
+Added Pin To Net: NetName=FMC_HYPER2_CK_N Pin=U8-B1
+Added Pin To Net: NetName=FMC_HYPER2_CK_P Pin=U8-B2
+Added Pin To Net: NetName=GND Pin=U8-B3
+Added Pin To Net: NetName=Vmem_low Pin=U8-B4
+Added Pin To Net: NetName=GND Pin=U8-C1
+Added Pin To Net: NetName=FMC_HYPER2_RWDS Pin=U8-C3
+Added Pin To Net: NetName=FMC_HYPER2_D2 Pin=U8-C4
+Added Pin To Net: NetName=Vmem_low Pin=U8-D1
+Added Pin To Net: NetName=FMC_HYPER2_D1 Pin=U8-D2
+Added Pin To Net: NetName=FMC_HYPER2_D0 Pin=U8-D3
+Added Pin To Net: NetName=FMC_HYPER2_D3 Pin=U8-D4
+Added Pin To Net: NetName=FMC_HYPER2_D4 Pin=U8-D5
+Added Pin To Net: NetName=FMC_HYPER2_D7 Pin=U8-E1
+Added Pin To Net: NetName=FMC_HYPER2_D6 Pin=U8-E2
+Added Pin To Net: NetName=FMC_HYPER2_D5 Pin=U8-E3
+Added Pin To Net: NetName=Vmem_low Pin=U8-E4
+Added Pin To Net: NetName=GND Pin=U8-E5
+Added Pin To Net: NetName=FMC_HYPER2_CSN2 Pin=J7-D18
+Added Pin To Net: NetName=FMC_HYPER2_CSN2 Pin=U7-A3
+Added Net: Name=FMC_HYPER2_CSN2
+Added Pin To Net: NetName=FMC_HYPER2_CSN3 Pin=J7-D27
+Added Pin To Net: NetName=FMC_HYPER2_CSN3 Pin=U8-A3
+Added Net: Name=FMC_HYPER2_CSN3
+Added Pin To Net: NetName=FMC_HYPER_CSN2 Pin=J7-G28
+Added Pin To Net: NetName=FMC_HYPER_CSN2 Pin=U6-A3
+Added Net: Name=FMC_HYPER_CSN2
+Added Pin To Net: NetName=FMC_HYPER_CSN3 Pin=J7-G31
+Added Pin To Net: NetName=FMC_HYPER_CSN3 Pin=U5-A3
+Added Net: Name=FMC_HYPER_CSN3
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J7-D30
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=J7-D31
+Added Net: Name=NetJ1_2
+Added Class: Name=FMC_HYPER2_CSN[0..3]
+Added Class: Name=FMC_HYPER_CSN[0..3]
+Added Member To Class: ClassName=U_HyperRAM Member=Component C16 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM Member=Component C17 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM Member=Component C18 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM Member=Component C19 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM Member=Component C20 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM Member=Component C21 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component C22 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component C23 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component C24 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component C25 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component C26 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component C27 CAP 100nF 25V 0603(1608)
+Added Member To Class: ClassName=U_FMC and Power Member=Component J1 Jumper
+Added Member To Class: ClassName=U_FMC and Power Member=Component R2 12K 5% 0603(1608)
+Added Member To Class: ClassName=U_HyperRAM Member=Component U5 S80KS5122
+Added Member To Class: ClassName=U_HyperRAM Member=Component U6 S80KS5122
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component U7 S80KS5122
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component U8 S80KS5122
+Added Member To Class: ClassName=Hyper2 Member=Element[2]: FMC_HYPER2_CSN
+Added Member To Class: ClassName=Hyper2 Member=Element[3]: FMC_HYPER2_CSN
+Added Member To Class: ClassName=Hyper Member=Element[2]: FMC_HYPER_CSN
+Added Member To Class: ClassName=Hyper Member=Element[3]: FMC_HYPER_CSN

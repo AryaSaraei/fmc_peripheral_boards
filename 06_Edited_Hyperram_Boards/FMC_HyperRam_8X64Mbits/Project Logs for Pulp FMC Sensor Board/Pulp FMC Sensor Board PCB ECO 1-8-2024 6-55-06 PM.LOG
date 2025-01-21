@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=U_FMC and Power Member=J1
+Added Pin To Net: NetName=NetJ7_D30 Pin=J7-D30
+Added Pin To Net: NetName=NetJ7_D30 Pin=J7-D31
+Added Net: Name=NetJ7_D30

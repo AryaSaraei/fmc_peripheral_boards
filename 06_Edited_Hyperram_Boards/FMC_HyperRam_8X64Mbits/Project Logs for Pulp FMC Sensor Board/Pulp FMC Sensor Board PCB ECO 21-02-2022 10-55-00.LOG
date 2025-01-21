@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=U1 NewDesignator=H3
+Change Component Designator: OldDesignator=U2 NewDesignator=H1
+Change Component Designator: OldDesignator=U3 NewDesignator=H2
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component H1 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component H2 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM Member=Component H3 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM Member=Component U5 S71KS512SC0

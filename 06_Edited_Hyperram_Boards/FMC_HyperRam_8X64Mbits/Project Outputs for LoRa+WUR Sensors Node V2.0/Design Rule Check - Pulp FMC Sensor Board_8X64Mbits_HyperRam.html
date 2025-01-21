@@ -1,0 +1,387 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12/12/2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4:40:41 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc" class="file"><acronym title="D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc">D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">9</td></tr>
+</table>
+</td>
+</table><a name="IDE3O5EJSU1AYRIS4MDP114FKLZK21YMOU0JUDWLE5KKB52ZWYNQAE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTFB4CECPETVBLOHY4NEYVNHLOCSNBUTYH4EAZ2LQZ0IIP32IX5GN">Clearance Constraint (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUVPIYLQ3NW0ZMWN0XXCXXWYF5BPIGWTEURRDMRK2X4VVVIAWHV">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRXH4EUN10ABS4IBILZK5H1VJFSCCTSKN4BIP4FXZUHKXTBLLVIK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV2JOOKZ5VJFZHKS425HJ0YAQ1KS0R5VBCJJLUFO3JJJEGVMQDXI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0WQUKZ1DY2S1MNYXV1WZENEEKPQUEZG230JNE5GSTX544YRRYS0C">Width Constraint (Min=0.15mm) (Max=0.6mm) (Preferred=0.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHWCONLS1URO0FGCZGNXMCJOR5PEH5MBSG3R2C4GBSD3H35Q5J3WG">Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.8mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.4mm) (MaxWidth=1.2mm) (PreferedWidth=0.6mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX342RJI2PVIVCCDF02EVQ4JCAFWH4QJKL44ZKJPXFHU5KWEJGCYN">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.339mm) (Max=0.339mm) (Prefered=0.339mm)  and Width Constraints (Min=0.15mm) (Max=0.15mm) (Prefered=0.15mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3DRIVWR4XT4OHNXDDOHVDJOP5BP2N5J4NGCFNOCXTCYCU4KDAYRP">Power Plane Connect Rule(Relief Connect )(Expansion=0.25mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUWFRGG5ZMHY5NKJ5KPKHJOLICJKLR42OLIL01HPZXAIB1A1IP04F">Minimum Annular Ring (Minimum=0.15mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH2SX1RTD0TMCCXY3WLRAMQQSHF1J1SD0RWCD12HUNOAQQSCC33NO">Hole Size Constraint (Min=0.2mm) (Max=7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID40GAKWK4EOKTRXWE2T0JWGLTF4R5DFTFSCLRMFQW0E3ODNYUH5">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2QOFAL01DPBPKMV1ZJINOTCMHDDC3FQ1GKD4CCCPHPCHFKX0PX0L">Minimum Solder Mask Sliver (Gap=0.099mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLXADYMB3ATELLFUHIR3JJVOOQMM2HQI315K43UIW4QBPWYCXRYQN">Silk To Solder Mask (Clearance=0.01mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1QL1YNBG2YZNDT2VDRSTLPHK3CJ2G32GWGFZ2CHUHTCWVIGUP1CP">Silk to Silk (Clearance=0.01mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDETXU3TG3EMOTEGEPDVQQYS3D5GXFONIM0FE2WCHZ2IS5B2G2YXUM">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUBMJYQJDWXE3PMONA4SV5A0X2HLFXRVKTN3504PQBS3FNKOW2NUJ">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID01NA0TNKLT3KNVJRFSKE3V000OKRERDR1T5FR2WJ3PZ1HJHR2IG">Component Clearance Constraint ( Horizontal Gap = 0.35mm, Vertical Gap = 0.254mm ) (Disabled)(All),(All) </a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPSUGMGVEAXL5OO1AVTOAILWLVDNA0LNPLBXYUGEUTDHFCIDLQCFF">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Disabled)(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">9</td>
+</tr>
+</table><br><a name="IDTFB4CECPETVBLOHY4NEYVNHLOCSNBUTYH4EAZ2LQZ0IIP32IX5GN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.25mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19075.761mil|Location2.X=19082.01mil|Location1.Y=20105.534mil|Location2.Y=20111.783mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19075.761mil|Location2.X=19082.01mil|Location1.Y=20105.534mil|Location2.Y=20111.783mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad U2-z(9.995mm,35.602mm) on Top Layer And Track (9.995mm,35.601mm)(10.486mm,35.11mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21115.361mil|Location2.X=21124.485mil|Location1.Y=20105.488mil|Location2.Y=20114.612mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21115.361mil|Location2.X=21124.485mil|Location1.Y=20105.488mil|Location2.Y=20114.612mil|Absolute=True">Clearance Constraint: (0.111mm &lt; 0.2mm) Between Pad U6-ZZ(62mm,35.8mm) on Top Layer And Track (61.745mm,35.4mm)(61.745mm,35.545mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21123.215mil|Location2.X=21129.464mil|Location1.Y=20113.342mil|Location2.Y=20119.591mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21123.215mil|Location2.X=21129.464mil|Location1.Y=20113.342mil|Location2.Y=20119.591mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.2mm) Between Pad U6-ZZ(62mm,35.8mm) on Top Layer And Track (61.745mm,35.545mm)(62mm,35.8mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDUVPIYLQ3NW0ZMWN0XXCXXWYF5BPIGWTEURRDMRK2X4VVVIAWHV"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19068.685mil|Location2.X=19090.015mil|Location1.Y=20097.521mil|Location2.Y=20118.851mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19068.685mil|Location2.X=19090.015mil|Location1.Y=20097.521mil|Location2.Y=20118.851mil|Absolute=True">Short-Circuit Constraint: Between Pad U2-z(9.995mm,35.602mm) on Top Layer And Track (9.995mm,35.601mm)(10.486mm,35.11mm) on Top Layer Location : [X = 484.615mm][Y = 510.748mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21116.345mil|Location2.X=21132.824mil|Location1.Y=20106.473mil|Location2.Y=20122.951mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21116.345mil|Location2.X=21132.824mil|Location1.Y=20106.473mil|Location2.Y=20122.951mil|Absolute=True">Short-Circuit Constraint: Between Pad U6-ZZ(62mm,35.8mm) on Top Layer And Track (61.745mm,35.545mm)(62mm,35.8mm) on Top Layer Location : [X = 536.564mm][Y = 510.914mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDX342RJI2PVIVCCDF02EVQ4JCAFWH4QJKL44ZKJPXFHU5KWEJGCYN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.339mm) (Max=0.339mm) (Prefered=0.339mm)  and Width Constraints (Min=0.15mm) (Max=0.15mm) (Prefered=0.15mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20116.146mil|Location2.X=21155.895mil|Location1.Y=19327.332mil|Location2.Y=20119.422mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=20116.146mil|Location2.X=21155.895mil|Location1.Y=19327.332mil|Location2.Y=20119.422mil|Absolute=True">Differential Pairs Routing: Between Net FMC_HYPER_CK_P And Net FMC_HYPER_CK_N [Uncoupled Length = 13.878mm], [Maximum Uncoupled Length = 10mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19193.88mil|Location2.X=19963.153mil|Location1.Y=19323.652mil|Location2.Y=20560.367mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19193.88mil|Location2.X=19963.153mil|Location1.Y=19323.652mil|Location2.Y=20560.367mil|Absolute=True">Differential Pairs Routing: Between Net FMC_HYPER2_CK_P And Net FMC_HYPER2_CK_N [Uncoupled Length = 18.594mm], [Maximum Uncoupled Length = 10mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDETXU3TG3EMOTEGEPDVQQYS3D5GXFONIM0FE2WCHZ2IS5B2G2YXUM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21119.887mil|Location2.X=21139.018mil|Location1.Y=20110.014mil|Location2.Y=20136.863mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=21119.887mil|Location2.X=21139.018mil|Location1.Y=20110.014mil|Location2.Y=20136.863mil|Absolute=True">Net Antennae: Track (61.745mm,35.545mm)(62mm,35.8mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19069.48mil|Location2.X=19095.04mil|Location1.Y=20099.235mil|Location2.Y=20136.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Arya\PCB\HyperRam Boards\FMC_HyperRam_8X64Mbits\Pulp FMC Sensor Board_8X64Mbits_HyperRam.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=19069.48mil|Location2.X=19095.04mil|Location1.Y=20099.235mil|Location2.Y=20136.685mil|Absolute=True">Net Antennae: Track (9.995mm,35.601mm)(10.486mm,35.11mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

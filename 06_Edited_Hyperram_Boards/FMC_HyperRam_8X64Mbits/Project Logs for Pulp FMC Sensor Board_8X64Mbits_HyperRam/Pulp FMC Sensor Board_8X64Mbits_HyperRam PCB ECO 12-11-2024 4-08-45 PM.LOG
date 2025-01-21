@@ -1,0 +1,79 @@
+Removed Pin From Net: NetName=Vmem_low Pin=U2-z
+Removed Pin From Net: NetName=FMC_HYPER_CK_N Pin=U6-ZZ
+Removed Member From Class: ClassName=U_HyperRAM2 Member=U7
+Removed Member From Class: ClassName=U_HyperRAM2 Member=U8
+Change Component Comment : Designator=U1 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U2 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U3 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U4 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U5 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U6 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U7 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Comment : Designator=U8 Old Comment=S80KS5122 New Comment=S71KS512SC0
+Change Component Description : Designator=U1 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U2 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U3 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U4 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U5 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U6 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U7 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Description : Designator=U8 Old Description=512 Mb: HYPERRAM™ self-refresh dynamic
+RAM (DRAM) with HYPERBUS™ interface
+1.8 V New Description=Cypress 64Mbit DRAM 24FBGA HyperRam
+Change Component Library : Designator=J7 Old Library=<Unknown Vault> New Library=ETHZ Vault
+Change Managed Component Library Link : Designator=A1 Old VaultGUID= New VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB Old ItemGUID= New ItemGUID=E9B69383-EB03-4F6C-8F12-92162C4D0D55 Old RevisionGUID= New RevisionGUID=89083AC1-A8D2-4A0F-9436-AD9243787413
+Change Managed Component Library Link : Designator=C1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C3 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C4 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C5 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C6 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C7 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C8 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C9 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C10 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C11 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C12 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C16 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C17 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C18 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C19 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C20 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C21 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C22 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C23 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C24 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C25 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C26 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=C27 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=3A793D6C-0BBD-42AF-9011-50D2FA4E31F5 Old RevisionGUID= New RevisionGUID=EBB645BA-E4F1-457D-9193-F22CB36CD6DC
+Change Managed Component Library Link : Designator=J7 Old VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB New VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB Old ItemGUID= New ItemGUID=3B5C0645-E28D-48C8-BBA7-344571C07C18 Old RevisionGUID= New RevisionGUID=D6B22B0C-AE31-4F06-B897-72CC7B5215DC
+Change Managed Component Library Link : Designator=LOGO1 Old VaultGUID= New VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB Old ItemGUID= New ItemGUID=D0E578FC-4BA1-428C-A4BD-27E73DFDC3B1 Old RevisionGUID= New RevisionGUID=52BBDBAA-29BA-49D4-882B-2F667C73F0A9
+Change Managed Component Library Link : Designator=M1 Old VaultGUID= New VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB Old ItemGUID= New ItemGUID=452AE9E5-CE22-4D82-882E-E2AB1A0C6157 Old RevisionGUID= New RevisionGUID=18780230-3D39-40E5-8A92-EA72562D0CF0
+Change Managed Component Library Link : Designator=M2 Old VaultGUID= New VaultGUID=BC61A0C6-781F-4ABE-B17D-DCDC4522F5EB Old ItemGUID= New ItemGUID=452AE9E5-CE22-4D82-882E-E2AB1A0C6157 Old RevisionGUID= New RevisionGUID=18780230-3D39-40E5-8A92-EA72562D0CF0
+Change Managed Component Library Link : Designator=R1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=9CDCC700-C0D2-49E4-A5F0-ABB2D661A783 Old RevisionGUID= New RevisionGUID=3259F394-9556-4A14-A9D7-47C160BFC010
+Change Managed Component Library Link : Designator=R2 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=9CDCC700-C0D2-49E4-A5F0-ABB2D661A783 Old RevisionGUID= New RevisionGUID=3259F394-9556-4A14-A9D7-47C160BFC010
+Add Pin To Net: Unknown Pin: Pin U2-E4
+Add Differential Pair: Number of nets in differential pair NetU6_B1 is 1 instead of 2
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component LOGO1 Logo Pulp
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component U1 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component U2 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component U3 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM2 Member=Component U4 S71KS512SC0
+Added Member To Class: ClassName=U_HyperRAM Member=Component U5 S71KS512SC0
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
